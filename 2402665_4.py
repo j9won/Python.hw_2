@@ -4,6 +4,7 @@ values1 = list(map(int, input('30 40 50 60 70 80 90 입력: ').split()))
 
 my_dict1 = dict(zip(keys1, values1))
 del my_dict1['alpha']
+del my_dict1['delta']
 
 print(my_dict1)
 
