@@ -9,7 +9,7 @@ del my_dict1['delta']
 print(my_dict1)
 
 # 과제 26
-park = dict(zip(['korean', 'english', 'mathematics', 'science'],[94, 91, 89, 83]))
+park = {'korean': 94, 'english': 91, 'mathematics': 89, 'science': 83} 
 
 print(park['english'], park['science'])
 
